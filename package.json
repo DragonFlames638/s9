@@ -1,10 +1,10 @@
 {
-  "name": "shellshock",
-  "description": "shellshockers.io",
+  "name": "shelshockers",
+  "description": "crack some eggs",
   "author": "DragonFlames638",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/DragonFlames638/s",
+  "homepage": "https://github.com/nfriedly/nodeunblocker.com/",
   "dependencies": {
     "express": "^4.13.0",
     "gatling": "~1.2.0",
@@ -15,5 +15,8 @@
   "engines": {
     "node": ">=6"
   },
-  "scripts": {},
-  "
+  "scripts": {
+    "start": "node ./node_modules/gatling/gatling.js ./app.js"
+  },
+  "license": "AGPL-3.0"
+}
